@@ -1,4 +1,4 @@
 # adaptive
-npm install
-Установить gulp глобально
-gulp watch
+#npm install
+#Установить gulp глобально
+#gulp watch
