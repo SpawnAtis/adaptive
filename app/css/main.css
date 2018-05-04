@@ -1,9 +1,11 @@
 body {
-  font-size: 22px; }
+  font-size: 22px;
+}
 
 body {
   background-color: pink;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+}
