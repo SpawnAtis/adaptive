@@ -14,7 +14,7 @@ const gulp = require('gulp'),
 gulp.task('sass', () => {
   gulp
     .src('app/sass/**/*.sass')
-    .pipe(sass())
+    .pipe(sass({ outputStyle: 'expand' }).on('error'), sass.logError)
     .pipe(
       autoprefixer(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], {
         cascade: true,
